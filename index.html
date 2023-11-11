@@ -21,18 +21,13 @@
                 
                 <div class="input_wrapper">
                     <h3>Задача</h3>
-                    <input id="business_input" class="input" type="text"></input>
+                    <input autofocus focus id="business_input" class="input" type="text"></input>
                 </div>
 
                 <div class="columns">
                     <div class="hold_column">
                         <h3>Ожидают</h3>
                             <ul>
-                                <!-- <li data-value="1" id="1" class="item" draggable="true">hold</li>
-                                <li id="2" class="item" draggable="true">hold</li>
-                                <li id="3" class="item" draggable="true">hold</li>
-                                <li id="4" class="item" draggable="true">hold</li>
-                                <li id="5" class="item" draggable="true">hold</li> -->
                             </ul>
                     </div>
                     
@@ -41,11 +36,12 @@
 
                     <div class="done_column">
                         <h3>Готово</h3>
-                        <!-- <li id="6" class="item" draggable="true">done</li> -->
+                        <ul>
+                        </ul>
                     </div>
-
+                    
                 </div>
-
+                <button class="button_clear" id="clear_doneItems">Clear</button>
             </div>
 
         </div>
@@ -53,6 +49,6 @@
 
 
     <div class="footer"></div>
-    <script src="app2.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

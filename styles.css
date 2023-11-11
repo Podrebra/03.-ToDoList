@@ -19,6 +19,7 @@ background: url(Crevisio-79-GkvTwvwtn.jpg);
 
 .dashboard{
     display: flex;
+    justify-content: flex-end;
     border: 1px rgb(0, 0, 0) solid;
     border-radius: 5px;
     width: 80%;
@@ -44,10 +45,13 @@ background: url(Crevisio-79-GkvTwvwtn.jpg);
     border-style: none;
 }
 
-.input:active {
-    border: 0px white;
+.input:focus {
+    outline: thick double rgba(228, 92, 210, 0.404);
 }
 
+.button_clear:focus {
+    outline: thick double rgba(228, 92, 210, 0.404);
+}
 .columns {
     display: inherit;
     width: 100%;
@@ -79,6 +83,17 @@ background: url(Crevisio-79-GkvTwvwtn.jpg);
     border-radius: 5px;
     cursor: grab;
 }
+
+.button_clear {
+    border: 1px solid;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: inherit;
+
+}
+
 .hold_column h3, .done_column h3 {
     text-align: center;
     
